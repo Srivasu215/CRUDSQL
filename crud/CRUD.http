@@ -1,0 +1,28 @@
+
+GET http://localhost:5000/users
+
+### post
+POST http://localhost:5000/users
+content-type: application/json
+
+{
+"student_name":"SANDHYA",
+"contact_no":984822338,
+"Branch":"CSE"
+}
+
+### put
+PUT http://localhost:5000/users/2
+content-type: application/json
+
+{
+"student_name":"SANDHYA",
+"contact_no":999999999,
+"Branch":"CSE"
+}
+
+### delete
+DELETE  http://localhost:5000/users/2
+content-type: application/json
+
+{}
